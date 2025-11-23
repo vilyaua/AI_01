@@ -1,0 +1,281 @@
+================================================================================
+FILE PROCESSING COMPARISON REPORT
+================================================================================
+Generated: 2025-11-23 20:44:37
+File: ../Homework.txt
+
+SUMMARY
+--------------------------------------------------------------------------------
+
+gemma:2b:
+  Successful: 10/10
+  Total time: 105.55s
+  Average time: 10.55s
+
+llama3.2:3b:
+  Successful: 10/10
+  Total time: 453.25s
+  Average time: 45.32s
+
+================================================================================
+DETAILED RESPONSES
+================================================================================
+
+================================================================================
+QUESTION 1: what is this file about?
+================================================================================
+
+gemma:2b:
+  Time: 43.08s
+  Response:
+    This file provides step-by-step instructions for participants to complete a series of tasks related to using LLM tools for building AI applications.
+
+llama3.2:3b:
+  Time: 155.99s
+  Response:
+    This file appears to be a homework assignment or tutorial guide for Module 1 of a training program related to GenAI (Generative Artificial Intelligence) tools, specifically LM Studio and other AI-powered platforms like ChatGPT, Gemini, and Vibe Coding. The assignment provides step-by-step instructions on how to interact with these tools, build custom assistants, record walkthroughs, and submit work for evaluation.
+
+
+================================================================================
+QUESTION 2: how many different words does this file contain?
+================================================================================
+
+gemma:2b:
+  Time: 5.01s
+  Response:
+    The context does not specify the number of different words in the file, so I cannot answer this question from the provided context.
+
+llama3.2:3b:
+  Time: 21.01s
+  Response:
+    I don't see any text in your message. You provided instructions and a task, but no text itself. If you provide a text file, I can help you count the number of unique words it contains. Please share the text file with me, and I'll be happy to assist you.
+
+
+================================================================================
+QUESTION 3: how many spaces does this file have?
+================================================================================
+
+gemma:2b:
+  Time: 4.98s
+  Response:
+    The context does not provide any information about the number of spaces in the file, so I cannot answer this question from the provided context.
+
+llama3.2:3b:
+  Time: 35.45s
+  Response:
+    This is not a programming question, but rather an inquiry about the formatting of a text document.
+    
+    However, if you're asking how many lines or spaces are in the provided text file, I can help with that. The text file appears to be a list of tasks and instructions related to GenAI tools and coding assignments.
+    
+    If you'd like to know the exact number of lines or characters in the text file, please provide more context or clarify what you mean by "spaces." Are you referring to blank lines between tasks, or perhaps character counts?
+
+
+================================================================================
+QUESTION 4: which letter is used more often?
+================================================================================
+
+gemma:2b:
+  Time: 4.44s
+  Response:
+    The context does not specify which letter is used more often, so I cannot answer this question from the provided context.
+
+llama3.2:3b:
+  Time: 37.93s
+  Response:
+    I'm happy to help you with your question, but I have to say that it seems a bit unrelated to the topic at hand. Nevertheless, I'll do my best to provide an answer.
+    
+    The question asks which letter is used more often. However, without knowing the specific context or text being referred to, it's difficult to determine which letter would be used more frequently.
+    
+    Could you please provide more information or clarify what you're trying to ask? Are we talking about a specific word or phrase, or perhaps a type of text? I'd be happy to try and help.
+
+
+================================================================================
+QUESTION 5: describe how do you follow instructions biefly
+================================================================================
+
+gemma:2b:
+  Time: 26.65s
+  Response:
+    Sure, here's a summary of how to follow the instructions:
+    
+    **Step 1: Try Out a Local Model**
+    * Install the LM Studio application.
+    * Download a model of your choice and upload it to the app.
+    * Create a text file and an image for prompt training.
+    
+    **Step 2: Build a Custom Assistant**
+    * If you have a ChatGPT Plus account:
+      * Create a CustomGPT.
+    * If you have a Gemini account:
+      * Create a GEM.
+    * Upload a document and configure the assistant with your instructions.
+    
+    **Step 3: Record a Walkthrough**
+    * Schedule a video call with yourself.
+    * Record a screen-sharing demo with transcripts enabled.
+    * Upload the video and transcript to Google Drive.
+    
+    **Step 4: Submit Your Work**
+    * Upload the video and transcript to Google Drive.
+    * Create a Google Form and submit the URLs to the form.
+
+llama3.2:3b:
+  Time: 25.78s
+  Response:
+    To follow instructions briefly, I would:
+    
+    1. Read the instruction carefully to ensure understanding.
+    2. Break down complex tasks into smaller steps.
+    3. Identify key actions and deadlines.
+    4. Take note of any specific requirements or guidelines.
+    5. Prioritize tasks and focus on one step at a time.
+    
+    By following these steps, I can effectively follow instructions and complete tasks efficiently.
+
+
+================================================================================
+QUESTION 6: list all verbs from file
+================================================================================
+
+gemma:2b:
+  Time: 3.86s
+  Response:
+    The context does not provide any verbs from the file, so I cannot generate the requested list.
+
+llama3.2:3b:
+  Time: 32.16s
+  Response:
+    I can help you with listing the verbs from a text file, but I need to clarify that I'll be using my knowledge cutoff of December 2023. If there are any updates or changes after this date, please let me know.
+    
+    To get started, can you please provide the text file you'd like me to extract the verbs from? Additionally, would you like me to use a specific language (e.g., English) and/or format for the output (e.g., comma-separated list)?
+
+
+================================================================================
+QUESTION 7: list all nouns
+================================================================================
+
+gemma:2b:
+  Time: 3.67s
+  Response:
+    The context does not provide any nouns, so I cannot extract the requested information from the context.
+
+llama3.2:3b:
+  Time: 75.17s
+  Response:
+    Here are the nouns from the text:
+    
+    1. Module
+    2. Homework
+    3. Fundamentals
+    4. GenAI
+    5. Tools
+    6. Studio
+    7. Model
+    8. File
+    9. Image
+    10. Prompt
+    11. Assistant
+    12. ChatGPT
+    13. Gemini
+    14. GEM
+    15. Document
+    16. Instructions
+    17. Questions
+    18. Content
+    19. Video
+    20. Call
+    21. Recording
+    22. Transcript
+    23. Google
+    24. Drive
+    25. Folder
+    26. Permissions
+    27. Form
+    28. URLs
+    29. Bonus
+    30. Scenario
+    31. Domain
+    32. Banking
+    33. Healthcare
+    34. E-commerce
+    35. Travel
+    36. LLM
+    37. Prompt
+    38. Proof
+    39. Concept
+    40. Application
+    41. Platform
+    42. Firebase
+    43. Bolt.new
+    44. Platform
+    45. Version
+    46. Meeting
+    47. Workflow
+    48. Challenges
+    49. Limitations
+    50. Experience
+    
+    Let me know if you'd like me to break down the nouns into categories (e.g., people, places, things, etc.) or help with anything else!
+
+
+================================================================================
+QUESTION 8: what is the most used word?
+================================================================================
+
+gemma:2b:
+  Time: 4.56s
+  Response:
+    The context does not provide any information about the most used word, so I cannot answer this question from the provided context.
+
+llama3.2:3b:
+  Time: 38.11s
+  Response:
+    Based on the provided text, I couldn't find any information about a specific word that is the "most used" in the context. However, I can suggest some possible words or phrases that are frequently mentioned:
+    
+    * "GenAI"
+    * "LM Studio"
+    * "CustomGPT"
+    * "GEM"
+    * "LLM"
+    * "Prompt"
+    
+    If you're looking for more information about word usage, please let me know what type of text you'd like to analyze (e.g., a specific document or article), and I'll be happy to help.
+
+
+================================================================================
+QUESTION 9: how many commas are there?
+================================================================================
+
+gemma:2b:
+  Time: 4.85s
+  Response:
+    The context does not mention anything about the number of commas in the text, so I cannot answer this question from the provided context.
+
+llama3.2:3b:
+  Time: 6.04s
+  Response:
+    There is only one comma in the text you provided.
+
+
+================================================================================
+QUESTION 10: what different punctuation marks used?
+================================================================================
+
+gemma:2b:
+  Time: 4.44s
+  Response:
+    The context does not provide information about different punctuation marks used, so I cannot answer this question from the provided context.
+
+llama3.2:3b:
+  Time: 25.60s
+  Response:
+    There are several punctuation marks used in the provided text, including:
+    
+    1. Apostrophe (')
+    2. Comma (,)
+    3. Semicolon (;)
+    4. Colon (:)
+    5. Exclamation mark (!)
+    6. Question mark (?)
+    
+    These punctuation marks are used to separate sentences, clauses, and phrases within the text, as well as to add emphasis or clarify meaning.
