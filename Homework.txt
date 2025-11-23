@@ -1,0 +1,38 @@
+📚 Module 1 Homework: Fundamentals of GenAI Tools
+
+✅ Step 1: Try Out a Local Model
+* Install LM Studio https://lmstudio.ai
+       * Download a model of your choice (e.g., `gemma3-4b-it`, `llama-3.2-3b-instruct`)
+* Upload a text file and an image, and experiment with prompting against the model
+* Explore how it responds differently depending on the prompt type and input format
+
+✅ Step 2: Build a Custom Assistant
+* If you're a ChatGPT Plus user:
+  * Create a CustomGPT: https://chatgpt.com/gpts/editor
+* If you're using Gemini:
+  * Create a GEM: https://gemini.google.com/app
+* Upload a document of your choice and configure the assistant with your own custom instructions
+* Test it with questions related to the uploaded content
+
+✅ Step 3: Record a Walkthrough
+* Schedule a quick video call with yourself (e.g., Google Meet)
+* Record a screen-sharing demo with transcripts enabled, where you show both:
+  * LM Studio interaction
+  * CustomGPT or GEM interaction
+
+✅ Step 4: Submit Your Work
+* Upload your video recording and transcript to Google Drive, by creating your folder here (name it using your Name and Surname)
+* Make sure permissions are set to "Anyone at Ciklum with the link can view"
+* Submit the URLs to the  form provided - Google Form for your submissions
+
+
+⭐ BONUS: Vibe Coding for Presales Scenario
+· This optional assignment is designed for participants who want to deepen their practical skills and prepare for real-world client-facing scenarios. 
+
+Step 1 – Select a Domain: Imagine you are preparing for a presales call in one of Ciklum’s core domains (e.g., banking, healthcare, e-commerce, travel). 
+Step 2 – Leverage Your LLM: Use the LLM from the earlier assignment (preferably your CustomGPT or GEM) to generate an initial prompt that could be used to prototype a simple Proof of Concept (PoC) application relevant to your chosen domain. 
+Step 3 – Build with a Vibe Coding Platform: Choose a platform of your choice (Firebase, Lovable, Bolt.new, etc.) and use the generated prompt to kickstart your application. Iterate with additional prompts until you have a version you would feel confident presenting in a presales meeting. 
+Step 4 – Record a Walkthrough: Prepare a short video walkthrough of your application. Explain what you built, demonstrate its core functionality, and highlight the workflow you used to refine your prompts. 
+Step 5 – Learning Outcomes: Gain hands-on experience with vibe coding platforms; understand limitations and challenges; practice the importance of precise prompt writing; build confidence for future presales activities.
+
+
