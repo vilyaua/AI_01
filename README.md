@@ -19,7 +19,26 @@ AI_01/
 ├── ACTIVITY_LOG.md     # Detailed log of activities and time spent
 ├── NEXT_STEPS.md       # Planned steps and progress tracking
 ├── Homework.txt        # Original homework requirements
-└── AGENTS.md           # Agent instructions and guidelines
+├── AGENTS.md           # Agent instructions and guidelines
+├── QUICK_START.md      # Quick start guide
+├── step1/              # Step 1: Local Models (all materials)
+│   ├── README.md       # Step 1 overview and quick start
+│   ├── STEP1_GUIDE.md  # General guide
+│   ├── STEP1_MACOS_INTEL.md  # Intel Mac guide
+│   ├── STEP1_TESTING.md      # Testing scripts guide
+│   ├── OLLAMA_QUICK_START.md # Ollama quick start
+│   ├── step1_test_models.py  # Main comparison script
+│   ├── step1_test_with_file.py # File processing script
+│   ├── run_tests.sh    # Interactive launcher
+│   └── step1_results/  # Test results directory
+├── STEP2_GUIDE.md      # Step 2: Custom Assistants guide
+├── STEP3_GUIDE.md      # Step 3: Demo walkthrough guide
+├── STEP3_RECOMMENDATIONS.md # Demo scenarios
+└── bonus-app/          # Bonus: Spanish Learning Application
+    ├── README.md
+    ├── docker-compose.yml
+    ├── backend/
+    └── frontend/
 ```
 
 ## Requirements
@@ -72,7 +91,7 @@ AI_01/
 3. Review `ACTIVITY_LOG.md` for completed work
 
 ### For Manual Steps (Steps 1-3):
-- See `STEP1_GUIDE.md` for LM Studio setup
+- See `step1/` folder for all Step 1 materials (guides, scripts, results)
 - See `STEP2_GUIDE.md` for CustomGPT/GEM creation
 - See `STEP3_GUIDE.md` for demo walkthrough
 
