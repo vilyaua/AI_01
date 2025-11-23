@@ -43,13 +43,15 @@ AI_01/
 
 ## Requirements
 
-### Step 1: Local Models (DevOps Perspective)
-- Install LM Studio
-- Download and test two models:
-  - `gemma3-4b-it`
-  - `llama-3.2-3b-instruct`
-- Experiment with text and image inputs
-- Document prompt variations and responses
+### Step 1: Local Models (DevOps Perspective) ✅ Completed
+- ✅ Researched LM Studio compatibility (Intel Mac limitation discovered)
+- ✅ Set up Ollama as alternative for Intel Macs
+- ✅ Installed Ollama and downloaded models:
+  - `gemma:2b`
+  - `llama3.2:3b`
+- ✅ Created automated testing scripts
+- ✅ Tested both models with various prompts
+- ✅ Generated comparison reports and documented findings
 
 ### Step 2: Custom Assistants (Delivery Manager Perspective)
 - Create CustomGPT in ChatGPT
