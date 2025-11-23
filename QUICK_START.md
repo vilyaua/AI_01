@@ -12,11 +12,12 @@ This project includes:
 
 ### For Manual Steps (Steps 1-4)
 
-1. **Step 1 - LM Studio**:
-   - Read: `STEP1_GUIDE.md`
-   - Install LM Studio from https://lmstudio.ai
-   - Download models: `gemma3-4b-it` and `llama-3.2-3b-instruct`
-   - Test with text and images
+1. **Step 1 - Local Models**:
+   - Navigate to `step1/` folder
+   - **For Intel Macs**: Read `step1/OLLAMA_QUICK_START.md` (LM Studio doesn't support Intel Macs)
+   - **For Apple Silicon Macs**: Read `step1/STEP1_GUIDE.md` and install LM Studio
+   - **For Windows/Linux**: Read `step1/STEP1_GUIDE.md` and install LM Studio
+   - Use automated scripts: `cd step1 && ./run_tests.sh`
 
 2. **Step 2 - Custom Assistants**:
    - Read: `STEP2_GUIDE.md`
