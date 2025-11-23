@@ -1,0 +1,136 @@
+[
+  {
+    "model_name": "gemma:2b",
+    "file_path": "../Homework.txt",
+    "test_time": "2025-11-23T20:34:58.866425",
+    "responses": [
+      {
+        "question": "what is this file about?",
+        "response": "This file provides step-by-step instructions for participants to complete a series of tasks related to using LLM tools for building AI applications.",
+        "time_seconds": 43.08155798912048,
+        "success": true
+      },
+      {
+        "question": "how many different words does this file contain?",
+        "response": "The context does not specify the number of different words in the file, so I cannot answer this question from the provided context.",
+        "time_seconds": 5.007550954818726,
+        "success": true
+      },
+      {
+        "question": "how many spaces does this file have?",
+        "response": "The context does not provide any information about the number of spaces in the file, so I cannot answer this question from the provided context.",
+        "time_seconds": 4.981107950210571,
+        "success": true
+      },
+      {
+        "question": "which letter is used more often?",
+        "response": "The context does not specify which letter is used more often, so I cannot answer this question from the provided context.",
+        "time_seconds": 4.442304849624634,
+        "success": true
+      },
+      {
+        "question": "describe how do you follow instructions biefly",
+        "response": "Sure, here's a summary of how to follow the instructions:\n\n**Step 1: Try Out a Local Model**\n* Install the LM Studio application.\n* Download a model of your choice and upload it to the app.\n* Create a text file and an image for prompt training.\n\n**Step 2: Build a Custom Assistant**\n* If you have a ChatGPT Plus account:\n  * Create a CustomGPT.\n* If you have a Gemini account:\n  * Create a GEM.\n* Upload a document and configure the assistant with your instructions.\n\n**Step 3: Record a Walkthrough**\n* Schedule a video call with yourself.\n* Record a screen-sharing demo with transcripts enabled.\n* Upload the video and transcript to Google Drive.\n\n**Step 4: Submit Your Work**\n* Upload the video and transcript to Google Drive.\n* Create a Google Form and submit the URLs to the form.",
+        "time_seconds": 26.654691219329834,
+        "success": true
+      },
+      {
+        "question": "list all verbs from file",
+        "response": "The context does not provide any verbs from the file, so I cannot generate the requested list.",
+        "time_seconds": 3.861417055130005,
+        "success": true
+      },
+      {
+        "question": "list all nouns",
+        "response": "The context does not provide any nouns, so I cannot extract the requested information from the context.",
+        "time_seconds": 3.6695287227630615,
+        "success": true
+      },
+      {
+        "question": "what is the most used word?",
+        "response": "The context does not provide any information about the most used word, so I cannot answer this question from the provided context.",
+        "time_seconds": 4.560473203659058,
+        "success": true
+      },
+      {
+        "question": "how many commas are there?",
+        "response": "The context does not mention anything about the number of commas in the text, so I cannot answer this question from the provided context.",
+        "time_seconds": 4.851204872131348,
+        "success": true
+      },
+      {
+        "question": "what different punctuation marks used?",
+        "response": "The context does not provide information about different punctuation marks used, so I cannot answer this question from the provided context.",
+        "time_seconds": 4.438956022262573,
+        "success": true
+      }
+    ]
+  },
+  {
+    "model_name": "llama3.2:3b",
+    "file_path": "../Homework.txt",
+    "test_time": "2025-11-23T20:36:54.456176",
+    "responses": [
+      {
+        "question": "what is this file about?",
+        "response": "This file appears to be a homework assignment or tutorial guide for Module 1 of a training program related to GenAI (Generative Artificial Intelligence) tools, specifically LM Studio and other AI-powered platforms like ChatGPT, Gemini, and Vibe Coding. The assignment provides step-by-step instructions on how to interact with these tools, build custom assistants, record walkthroughs, and submit work for evaluation.",
+        "time_seconds": 155.98631119728088,
+        "success": true
+      },
+      {
+        "question": "how many different words does this file contain?",
+        "response": "I don't see any text in your message. You provided instructions and a task, but no text itself. If you provide a text file, I can help you count the number of unique words it contains. Please share the text file with me, and I'll be happy to assist you.",
+        "time_seconds": 21.013299226760864,
+        "success": true
+      },
+      {
+        "question": "how many spaces does this file have?",
+        "response": "This is not a programming question, but rather an inquiry about the formatting of a text document.\n\nHowever, if you're asking how many lines or spaces are in the provided text file, I can help with that. The text file appears to be a list of tasks and instructions related to GenAI tools and coding assignments.\n\nIf you'd like to know the exact number of lines or characters in the text file, please provide more context or clarify what you mean by \"spaces.\" Are you referring to blank lines between tasks, or perhaps character counts?",
+        "time_seconds": 35.45063090324402,
+        "success": true
+      },
+      {
+        "question": "which letter is used more often?",
+        "response": "I'm happy to help you with your question, but I have to say that it seems a bit unrelated to the topic at hand. Nevertheless, I'll do my best to provide an answer.\n\nThe question asks which letter is used more often. However, without knowing the specific context or text being referred to, it's difficult to determine which letter would be used more frequently.\n\nCould you please provide more information or clarify what you're trying to ask? Are we talking about a specific word or phrase, or perhaps a type of text? I'd be happy to try and help.",
+        "time_seconds": 37.93217611312866,
+        "success": true
+      },
+      {
+        "question": "describe how do you follow instructions biefly",
+        "response": "To follow instructions briefly, I would:\n\n1. Read the instruction carefully to ensure understanding.\n2. Break down complex tasks into smaller steps.\n3. Identify key actions and deadlines.\n4. Take note of any specific requirements or guidelines.\n5. Prioritize tasks and focus on one step at a time.\n\nBy following these steps, I can effectively follow instructions and complete tasks efficiently.",
+        "time_seconds": 25.78244924545288,
+        "success": true
+      },
+      {
+        "question": "list all verbs from file",
+        "response": "I can help you with listing the verbs from a text file, but I need to clarify that I'll be using my knowledge cutoff of December 2023. If there are any updates or changes after this date, please let me know.\n\nTo get started, can you please provide the text file you'd like me to extract the verbs from? Additionally, would you like me to use a specific language (e.g., English) and/or format for the output (e.g., comma-separated list)?",
+        "time_seconds": 32.15778374671936,
+        "success": true
+      },
+      {
+        "question": "list all nouns",
+        "response": "Here are the nouns from the text:\n\n1. Module\n2. Homework\n3. Fundamentals\n4. GenAI\n5. Tools\n6. Studio\n7. Model\n8. File\n9. Image\n10. Prompt\n11. Assistant\n12. ChatGPT\n13. Gemini\n14. GEM\n15. Document\n16. Instructions\n17. Questions\n18. Content\n19. Video\n20. Call\n21. Recording\n22. Transcript\n23. Google\n24. Drive\n25. Folder\n26. Permissions\n27. Form\n28. URLs\n29. Bonus\n30. Scenario\n31. Domain\n32. Banking\n33. Healthcare\n34. E-commerce\n35. Travel\n36. LLM\n37. Prompt\n38. Proof\n39. Concept\n40. Application\n41. Platform\n42. Firebase\n43. Bolt.new\n44. Platform\n45. Version\n46. Meeting\n47. Workflow\n48. Challenges\n49. Limitations\n50. Experience\n\nLet me know if you'd like me to break down the nouns into categories (e.g., people, places, things, etc.) or help with anything else!",
+        "time_seconds": 75.17102408409119,
+        "success": true
+      },
+      {
+        "question": "what is the most used word?",
+        "response": "Based on the provided text, I couldn't find any information about a specific word that is the \"most used\" in the context. However, I can suggest some possible words or phrases that are frequently mentioned:\n\n* \"GenAI\"\n* \"LM Studio\"\n* \"CustomGPT\"\n* \"GEM\"\n* \"LLM\"\n* \"Prompt\"\n\nIf you're looking for more information about word usage, please let me know what type of text you'd like to analyze (e.g., a specific document or article), and I'll be happy to help.",
+        "time_seconds": 38.10929298400879,
+        "success": true
+      },
+      {
+        "question": "how many commas are there?",
+        "response": "There is only one comma in the text you provided.",
+        "time_seconds": 6.043022155761719,
+        "success": true
+      },
+      {
+        "question": "what different punctuation marks used?",
+        "response": "There are several punctuation marks used in the provided text, including:\n\n1. Apostrophe (')\n2. Comma (,)\n3. Semicolon (;)\n4. Colon (:)\n5. Exclamation mark (!)\n6. Question mark (?)\n\nThese punctuation marks are used to separate sentences, clauses, and phrases within the text, as well as to add emphasis or clarify meaning.",
+        "time_seconds": 25.59972095489502,
+        "success": true
+      }
+    ]
+  }
+]

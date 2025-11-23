@@ -1,0 +1,116 @@
+[
+  {
+    "model_key": "gemma",
+    "model_name": "gemma:2b",
+    "test_time": "2025-11-23T20:07:57.283392",
+    "prompts": [
+      {
+        "category": "Direct Question",
+        "prompt": "What is artificial intelligence?",
+        "result": {
+          "success": true,
+          "response": "Artificial intelligence (AI) is a rapidly developing branch of computer science that involves the ability of computers to perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making.\n\n**Key characteristics of AI:**\n\n* **Machine Learning:** AI systems learn from data without explicit programming.\n* **Natural Language Processing (NLP):** AI systems can understand and generate human language.\n* **Computer Vision:** AI systems can interpret and analyze visual information.\n* **Robotics:** AI systems can control physical robots and other devices.\n* **Problem-Solving:** AI systems can identify and solve complex problems.\n* **Adaptability:** AI systems can continuously learn and adapt to new situations.\n\n**Types of AI:**\n\n* **Narrow AI (weak AI):** AI that is designed to perform specific tasks, such as playing chess or recognizing objects.\n* **General AI (strong AI):** AI that is capable of human-level intelligence and beyond.\n* **Superintelligence:** AI that surpasses human intelligence in all aspects.\n\n**Examples of AI technologies:**\n\n* **Chatbots:** AI-powered chatbots can provide customer support and engage in natural language conversations.\n* **Virtual assistants:** AI-powered virtual assistants like Siri and Alexa can perform tasks such as setting reminders and playing music.\n* **Self-driving cars:** AI-powered vehicles can navigate roads and avoid accidents.\n* **Medical diagnosis:** AI algorithms are used in medical diagnosis and drug discovery.\n\n**Benefits of AI:**\n\n* **Increased efficiency and productivity:** AI can automate tasks and improve decision-making.\n* **Improved customer experiences:** AI-powered chatbots and virtual assistants provide personalized and responsive support.\n* **New medical discoveries:** AI is used to identify diseases and develop new treatments.\n* **Enhanced security:** AI systems can detect and prevent fraud and other malicious activities.\n\n**Challenges of AI:**\n\n* **Bias and fairness:** AI systems can perpetuate existing biases in data, leading to unfair or discriminatory outcomes.\n* **Job displacement:** AI automation may displace certain jobs, leading to unemployment.\n* **Ethical considerations:** AI raises ethical concerns, such as privacy, transparency, and accountability.",
+          "time_seconds": 68.44179677963257,
+          "error": null
+        }
+      },
+      {
+        "category": "Creative Writing",
+        "prompt": "Write a short poem about technology and nature.",
+        "result": {
+          "success": true,
+          "response": "Silicon forests bloom,\nA digital symphony.\nBirdsong is replaced by code,\nA symphony of bits and roads.\n\nScreens flicker, trees stand still,\nThe digital world takes hold.\nBut in this vibrant clash,\nA fragile beauty is told.\n\nThe firefly's spark fades fast,\nThe screen's light cannot last.\nThe natural world fades into the machine,\nA reminder that we are all in this machine.",
+          "time_seconds": 13.048039197921753,
+          "error": null
+        }
+      },
+      {
+        "category": "Code Generation",
+        "prompt": "Write a Python function to calculate the factorial of a number.",
+        "result": {
+          "success": true,
+          "response": "```python\ndef factorial(n):\n  \"\"\"\n  Calculates the factorial of a number.\n\n  Args:\n    n: The number whose factorial is to be calculated.\n\n  Returns:\n    The factorial of n.\n  \"\"\"\n\n  # Initialize the factorial to 1.\n  factorial = 1\n\n  # Iterate through the numbers from 2 to n.\n  for i in range(2, n + 1):\n    # Multiply the factorial of i by the factorial of n.\n    factorial *= i\n\n  # Return the factorial of n.\n  return factorial\n\n\n# Get the input number from the user.\nnumber = int(input(\"Enter a non-negative integer: \"))\n\n# Calculate the factorial of the input number.\nfactorial = factorial(number)\n\n# Print the factorial of the input number.\nprint(f\"The factorial of {number} is {factorial}\")\n```\n\n**Example Usage:**\n\n```\nEnter a non-negative integer: 5\nThe factorial of 5 is 120\n```\n\n**Notes:**\n\n* The factorial of 0 is defined as 1.\n* The factorial of negative numbers is undefined.\n* This function assumes that the input number is a non-negative integer. If the input number is negative, the function will return an error.",
+          "time_seconds": 36.21310210227966,
+          "error": null
+        }
+      },
+      {
+        "category": "Analysis",
+        "prompt": "Explain the difference between machine learning and deep learning.",
+        "result": {
+          "success": true,
+          "response": "Sure, here's the difference between machine learning and deep learning:\n\n**Machine Learning:**\n\n* Machine learning (ML) is a broader field that encompasses any technique that enables computers to learn from data without explicit programming.\n* It encompasses a wide range of algorithms, including supervised learning, unsupervised learning, and reinforcement learning.\n* It involves teaching a model to perform a specific task through interaction with data.\n* The model learns patterns and relationships from the data and uses these patterns to make predictions or decisions.\n\n**Deep Learning:**\n\n* Deep learning (DL) is a specific type of machine learning that focuses on the structure and function of the human brain.\n* It is inspired by the hierarchical structure and interconnected neurons in the brain.\n* Deep learning algorithms typically use artificial neural networks (ANNs) with multiple layers.\n* Each layer in the ANN receives input from the previous layer and passes it on to the next layer.\n* The interconnected nodes in each layer perform computations that learn patterns and relationships from the data.\n* Deep learning algorithms can achieve high accuracy in tasks such as image recognition, natural language processing, and drug discovery.\n\n**Key Differences:**\n\n| Feature | Machine Learning | Deep Learning |\n|---|---|---|\n| Data | Can be structured or unstructured | Usually highly structured |\n| Learning Process | Iterative (e.g., supervised learning) | Non-iterative (e.g., feed-forward ANNs) |\n| Architecture | Can be diverse (e.g., decision trees, support vectors) | Typically uses multi-layered ANNs |\n| Goal | Task-specific prediction or classification | High-level feature extraction and representation |\n| Examples | Supervised learning algorithms (e.g., linear regression, decision trees), unsupervised learning algorithms (e.g., K-means clustering) | Deep learning algorithms (e.g., convolutional neural networks, recurrent neural networks) |",
+          "time_seconds": 50.181623697280884,
+          "error": null
+        }
+      },
+      {
+        "category": "Complex Reasoning",
+        "prompt": "If a train travels 120 km in 2 hours, and another train travels 180 km in 3 hours, which train is faster?",
+        "result": {
+          "success": true,
+          "response": "To compare the speeds of the two trains, we can calculate their respective speeds in km/h.\n\nSpeed of the first train = 120 km/h ÷ 2 hours = 60 km/h\n\nSpeed of the second train = 180 km/h ÷ 3 hours = 60 km/h\n\nTherefore, the second train is equally fast as the first train, traveling at 60 km/h.",
+          "time_seconds": 13.936098098754883,
+          "error": null
+        }
+      }
+    ]
+  },
+  {
+    "model_key": "llama",
+    "model_name": "llama3.2:3b",
+    "test_time": "2025-11-23T20:11:04.169505",
+    "prompts": [
+      {
+        "category": "Direct Question",
+        "prompt": "What is artificial intelligence?",
+        "result": {
+          "success": true,
+          "response": "Artificial intelligence (AI) refers to the development of computer systems that can perform tasks that typically require human intelligence, such as:\n\n1. Learning: AI systems can learn from data and improve their performance over time.\n2. Problem-solving: AI systems can analyze problems and find solutions.\n3. Reasoning: AI systems can draw inferences and make decisions based on the information they have been trained on.\n4. Perception: AI systems can interpret and understand data from sensors, such as images and speech.\n\nThere are several types of artificial intelligence, including:\n\n1. Narrow or Weak AI: This type of AI is designed to perform a specific task, such as image recognition or natural language processing.\n2. General or Strong AI: This type of AI has the ability to perform any intellectual task that humans can.\n3. Superintelligence: This type of AI has intelligence that surpasses human intelligence.\n\nSome common applications of artificial intelligence include:\n\n1. Virtual assistants, such as Siri and Alexa\n2. Image recognition and object detection\n3. Natural language processing and chatbots\n4. Predictive analytics and data mining\n5. Autonomous vehicles\n\nAI has many benefits, including:\n\n1. Improved efficiency and productivity\n2. Enhanced decision-making and problem-solving\n3. Increased accuracy and reduced errors\n4. Improved customer service and experience\n\nHowever, AI also raises concerns about:\n\n1. Job displacement and economic impact\n2. Bias and discrimination in AI systems\n3. Security and privacy risks\n4. Ethics and accountability in AI decision-making\n\nOverall, artificial intelligence has the potential to transform many industries and aspects of our lives, but it is essential to address the challenges and concerns associated with its development and deployment.",
+          "time_seconds": 107.21878910064697,
+          "error": null
+        }
+      },
+      {
+        "category": "Creative Writing",
+        "prompt": "Write a short poem about technology and nature.",
+        "result": {
+          "success": true,
+          "response": "In silicon halls, we find our place,\nWhere circuitry beats with digital pace,\nBut as we gaze upon the screen's bright light,\nWe forget the world outside in all its might.\n\nThe trees stand tall, their leaves rustling free,\nA gentle breeze that whispers secrets to me,\nThe sun sets low, a fiery glow,\nAs nature's beauty beckons us to slow.\n\nLet's find a balance 'twixt tech and earth,\nWhere innovation meets the natural birth,\nFor in the harmony of human and land,\nLies a future bright, with a gentle hand.",
+          "time_seconds": 37.43966007232666,
+          "error": null
+        }
+      },
+      {
+        "category": "Code Generation",
+        "prompt": "Write a Python function to calculate the factorial of a number.",
+        "result": {
+          "success": true,
+          "response": "def factorial(n):\n    \"\"\"\n    Calculate the factorial of a given number.\n\n    Args:\n        n (int): The number for which the factorial is to be calculated.\n\n    Returns:\n        int: The factorial of n.\n\n    Raises:\n        ValueError: If n is negative.\n    \"\"\"\n    if not isinstance(n, int):\n        raise TypeError(\"Input must be an integer.\")\n    if n < 0:\n        raise ValueError(\"Factorial is not defined for negative numbers.\")\n    elif n == 0 or n == 1:\n        return 1\n    else:\n        result = 1\n        for i in range(2, n + 1):\n            result *= i\n        return result",
+          "time_seconds": 43.48679518699646,
+          "error": null
+        }
+      },
+      {
+        "category": "Analysis",
+        "prompt": "Explain the difference between machine learning and deep learning.",
+        "result": {
+          "success": false,
+          "response": null,
+          "time_seconds": 120.01719307899475,
+          "error": "Timeout"
+        }
+      },
+      {
+        "category": "Complex Reasoning",
+        "prompt": "If a train travels 120 km in 2 hours, and another train travels 180 km in 3 hours, which train is faster?",
+        "result": {
+          "success": true,
+          "response": "To determine which train is faster, we need to calculate the speed of each train.\n\nSpeed = Distance / Time\n\nTrain 1:\nDistance = 120 km\nTime = 2 hours\nSpeed = 120 km / 2 hours = 60 km/h\n\nTrain 2:\nDistance = 180 km\nTime = 3 hours\nSpeed = 180 km / 3 hours = 60 km/h\n\nSince both trains have the same speed (60 km/h), they are tied in terms of speed. Neither train is faster than the other.",
+          "time_seconds": 44.59550714492798,
+          "error": null
+        }
+      }
+    ]
+  }
+]

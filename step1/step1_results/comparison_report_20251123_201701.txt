@@ -1,0 +1,213 @@
+================================================================================
+MODEL COMPARISON REPORT
+================================================================================
+Generated: 2025-11-23 20:17:01
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+
+gemma:2b:
+  Successful queries: 5/5
+  Total time: 181.82s
+  Average time per query: 36.36s
+
+llama3.2:3b:
+  Successful queries: 4/5
+  Total time: 352.76s
+  Average time per query: 70.55s
+
+================================================================================
+DETAILED COMPARISONS
+================================================================================
+
+================================================================================
+PROMPT 1: Direct Question
+================================================================================
+Prompt: What is artificial intelligence?
+
+
+gemma:2b:
+  Time: 68.44s
+  Response:
+    Artificial intelligence (AI) is a rapidly developing branch of computer science that involves the ability of computers to perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making.
+    
+    **Key characteristics of AI:**
+    
+    * **Machine Learning:** AI systems learn from data without explicit programming.
+    * **Natural Language Processing (NLP):** AI systems can understand and generate human language.
+    * **Computer Vision:** AI systems can interpret and ana... [truncated]
+
+llama3.2:3b:
+  Time: 107.22s
+  Response:
+    Artificial intelligence (AI) refers to the development of computer systems that can perform tasks that typically require human intelligence, such as:
+    
+    1. Learning: AI systems can learn from data and improve their performance over time.
+    2. Problem-solving: AI systems can analyze problems and find solutions.
+    3. Reasoning: AI systems can draw inferences and make decisions based on the information they have been trained on.
+    4. Perception: AI systems can interpret and understand data from sensors, su... [truncated]
+
+
+================================================================================
+PROMPT 2: Creative Writing
+================================================================================
+Prompt: Write a short poem about technology and nature.
+
+
+gemma:2b:
+  Time: 13.05s
+  Response:
+    Silicon forests bloom,
+    A digital symphony.
+    Birdsong is replaced by code,
+    A symphony of bits and roads.
+    
+    Screens flicker, trees stand still,
+    The digital world takes hold.
+    But in this vibrant clash,
+    A fragile beauty is told.
+    
+    The firefly's spark fades fast,
+    The screen's light cannot last.
+    The natural world fades into the machine,
+    A reminder that we are all in this machine.
+
+llama3.2:3b:
+  Time: 37.44s
+  Response:
+    In silicon halls, we find our place,
+    Where circuitry beats with digital pace,
+    But as we gaze upon the screen's bright light,
+    We forget the world outside in all its might.
+    
+    The trees stand tall, their leaves rustling free,
+    A gentle breeze that whispers secrets to me,
+    The sun sets low, a fiery glow,
+    As nature's beauty beckons us to slow.
+    
+    Let's find a balance 'twixt tech and earth,
+    Where innovation meets the natural birth,
+    For in the harmony of human and land,
+    Lies a future bright, with a gentle h... [truncated]
+
+
+================================================================================
+PROMPT 3: Code Generation
+================================================================================
+Prompt: Write a Python function to calculate the factorial of a number.
+
+
+gemma:2b:
+  Time: 36.21s
+  Response:
+    ```python
+    def factorial(n):
+      """
+      Calculates the factorial of a number.
+    
+      Args:
+        n: The number whose factorial is to be calculated.
+    
+      Returns:
+        The factorial of n.
+      """
+    
+      # Initialize the factorial to 1.
+      factorial = 1
+    
+      # Iterate through the numbers from 2 to n.
+      for i in range(2, n + 1):
+        # Multiply the factorial of i by the factorial of n.
+        factorial *= i
+    
+      # Return the factorial of n.
+      return factorial
+    
+    
+    # Get the input number from the user.
+    number = int(input("Enter a... [truncated]
+
+llama3.2:3b:
+  Time: 43.49s
+  Response:
+    def factorial(n):
+        """
+        Calculate the factorial of a given number.
+    
+        Args:
+            n (int): The number for which the factorial is to be calculated.
+    
+        Returns:
+            int: The factorial of n.
+    
+        Raises:
+            ValueError: If n is negative.
+        """
+        if not isinstance(n, int):
+            raise TypeError("Input must be an integer.")
+        if n < 0:
+            raise ValueError("Factorial is not defined for negative numbers.")
+        elif n == 0 or n == 1:
+            return 1
+        else:
+            re... [truncated]
+
+
+================================================================================
+PROMPT 4: Analysis
+================================================================================
+Prompt: Explain the difference between machine learning and deep learning.
+
+
+gemma:2b:
+  Time: 50.18s
+  Response:
+    Sure, here's the difference between machine learning and deep learning:
+    
+    **Machine Learning:**
+    
+    * Machine learning (ML) is a broader field that encompasses any technique that enables computers to learn from data without explicit programming.
+    * It encompasses a wide range of algorithms, including supervised learning, unsupervised learning, and reinforcement learning.
+    * It involves teaching a model to perform a specific task through interaction with data.
+    * The model learns patterns and relationsh... [truncated]
+
+llama3.2:3b:
+  Time: 120.02s
+  Error: Timeout
+
+
+================================================================================
+PROMPT 5: Complex Reasoning
+================================================================================
+Prompt: If a train travels 120 km in 2 hours, and another train travels 180 km in 3 hours, which train is faster?
+
+
+gemma:2b:
+  Time: 13.94s
+  Response:
+    To compare the speeds of the two trains, we can calculate their respective speeds in km/h.
+    
+    Speed of the first train = 120 km/h ÷ 2 hours = 60 km/h
+    
+    Speed of the second train = 180 km/h ÷ 3 hours = 60 km/h
+    
+    Therefore, the second train is equally fast as the first train, traveling at 60 km/h.
+
+llama3.2:3b:
+  Time: 44.60s
+  Response:
+    To determine which train is faster, we need to calculate the speed of each train.
+    
+    Speed = Distance / Time
+    
+    Train 1:
+    Distance = 120 km
+    Time = 2 hours
+    Speed = 120 km / 2 hours = 60 km/h
+    
+    Train 2:
+    Distance = 180 km
+    Time = 3 hours
+    Speed = 180 km / 3 hours = 60 km/h
+    
+    Since both trains have the same speed (60 km/h), they are tied in terms of speed. Neither train is faster than the other.
