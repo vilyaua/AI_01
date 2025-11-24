@@ -1,0 +1,12 @@
+# Requirements for Step 2 automated testing
+
+# OpenAI API (for CustomGPT)
+openai>=1.0.0
+
+# Google Generative AI (for GEM)
+google-generativeai>=0.3.0
+
+# Optional: For browser automation (if needed)
+# selenium>=4.0.0
+# playwright>=1.40.0
+
